@@ -1,0 +1,16 @@
+name: icon_font_generator
+author: Peter Siska
+version: 0.0.1
+homepage: https://github.com/psiska/fantasticon_generator
+description: Convert all *.svg icons from dir to icon-font (.ttf) and generates flutter compatible dart class.
+environment: 
+  sdk: '>=2.7.0 <3.0.0'
+dependencies: 
+  recase: ^2.0.1
+  args: ^1.5.2
+  meta: ^1.1.6
+  path: ^1.6.4
+dev_dependencies: 
+  pedantic: ^1.5.0
+executables: 
+  fantasticon_generator: fantasticon_generator
